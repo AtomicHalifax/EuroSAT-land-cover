@@ -33,6 +33,15 @@ The model was trained using **Transfer Learning with ResNet50** on the **EuroSAT
 
 ---
 
+## 📂 Dataset
+
+This project uses the **EuroSAT RGB** dataset, which contains **27,000 satellite images** across **10 land-cover classes**.
+
+Download the dataset from the official source:
+
+**EuroSAT Dataset:** https://github.com/phelber/EuroSAT
+
+After downloading, extract the dataset and update the dataset path in the notebook before running the project.
 ## ✨ Key Features
 
 - Transfer Learning using ResNet50
