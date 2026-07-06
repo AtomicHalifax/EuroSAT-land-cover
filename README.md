@@ -92,7 +92,11 @@ Install the required dependencies:
 ```bash
 pip install -r requirements.txt
 ```
+## 📦 Trained Model
 
+The trained model weights (`eurosat_resnet50.pth`) are not included in this repository due to GitHub file size limitations.
+
+You can reproduce the model by running the notebook from start to finish.
 ---
 
 ## 🚀 How to Run
