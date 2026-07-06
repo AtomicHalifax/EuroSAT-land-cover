@@ -70,3 +70,76 @@ The model was trained using **Transfer Learning with ResNet50** on the **EuroSAT
 ## Misclassified Images
 
 <img width="1191" height="985" alt="Misclassified Test Images" src="https://github.com/user-attachments/assets/95b7a8ad-6d92-4c97-b2b1-f1cdd9a87908" />
+
+---
+
+## 🧠 Model Architecture
+
+This project uses **ResNet50**, a pretrained Convolutional Neural Network (CNN), with **Transfer Learning**. The final fully connected layer was modified to classify the **10 land-cover classes** in the EuroSAT RGB dataset.
+
+---
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/AtomicHalifax/EuroSAT-land-cover-classification.git
+cd EuroSAT-land-cover-classification
+```
+
+Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 🚀 How to Run
+
+1. Clone this repository.
+2. Download the **EuroSAT RGB** dataset.
+3. Open `notebook/EuroSAT_ResNet50.ipynb` in Google Colab or Jupyter Notebook.
+4. Update the dataset path if needed.
+5. Run all cells sequentially.
+6. The notebook will train the model, evaluate its performance, and generate visualizations.
+
+---
+
+## 🛠️ Tech Stack
+
+- Python
+- PyTorch
+- Torchvision
+- Google Colab
+- NumPy
+- Matplotlib
+- Scikit-learn
+
+---
+
+## 🔮 Future Improvements
+
+- Fine-tune additional ResNet50 layers
+- Compare with EfficientNet and Vision Transformers (ViT)
+- Apply advanced data augmentation
+- Deploy the model using Streamlit or Gradio
+- Extend the project for satellite-based deforestation detection
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 🙏 Acknowledgements
+
+- EuroSAT RGB Dataset
+- PyTorch & Torchvision
+- Google Colab
+
+---
+
+⭐ If you found this project interesting, feel free to **star the repository**!
