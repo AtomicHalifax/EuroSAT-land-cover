@@ -18,7 +18,6 @@ This project was developed in **Google Colab** using **PyTorch** and serves as m
 ## 📊 Project Results
 
 The model was trained using **Transfer Learning with ResNet50** on the **EuroSAT RGB** dataset. After 10 epochs of training, the model achieved the following performance:
-
 | Metric | Result |
 |:-------|:------:|
 | 🧠 Model | ResNet50 (Transfer Learning) |
@@ -32,17 +31,13 @@ The model was trained using **Transfer Learning with ResNet50** on the **EuroSAT
 
 > **Summary:** The model achieved strong generalization on unseen satellite images, obtaining **93.70% test accuracy** and a **0.94 weighted F1-score** across all 10 land-cover classes.
 
----
-
 ## 📂 Dataset
 
 This project uses the **EuroSAT RGB** dataset, which contains **27,000 satellite images** across **10 land-cover classes**.
-
 Download the dataset from the official source:
-
 **EuroSAT Dataset:** https://github.com/phelber/EuroSAT
-
 After downloading, extract the dataset and update the dataset path in the notebook before running the project.
+
 ## ✨ Key Features
 
 - Transfer Learning using ResNet50
@@ -57,13 +52,6 @@ After downloading, extract the dataset and update the dataset path in the notebo
 ## 🔄 Project Workflow
 
  <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/32d79c49-e752-4b36-be83-e7f99a76bc33" />
-
-# 🖼️ Project Showcase
-
-## Dataset Sample
-
- <img width="1203" height="990" alt="Sample Predictions" src="https://github.com/user-attachments/assets/aeef62ea-e63f-45c3-b095-43533a6055e6" />
-
 ## Class Distribution
 
 <img width="859" height="558" alt="EuroSAT Class distribution" src="https://github.com/user-attachments/assets/7f089ecf-fde0-4f05-87b3-365bf5ccb5d6" />
@@ -80,11 +68,9 @@ After downloading, extract the dataset and update the dataset path in the notebo
 
 <img width="1191" height="985" alt="Misclassified Test Images" src="https://github.com/user-attachments/assets/95b7a8ad-6d92-4c97-b2b1-f1cdd9a87908" />
 
-
 ## 🧠 Model Architecture
 
 This project uses **ResNet50**, a pretrained Convolutional Neural Network (CNN), with **Transfer Learning**. The final fully connected layer was modified to classify the **10 land-cover classes** in the EuroSAT RGB dataset.
-
 
 ## ⚙️ Installation
 
